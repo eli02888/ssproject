@@ -1,0 +1,99 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 3em;
+  padding: 0;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+nav li {
+  float: left;
+}
+
+nav li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+nav li a:hover {
+  background-color: #555;
+  color: #fff;
+}
+
+h1 {
+  font-size: 2.2em;
+  color: #333;
+}
+
+h2 {
+  font-size: 1.5em;
+  color: #666;
+}
+
+body {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  color: #333;
+}
+
+.celebrities {
+  border-width: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to right, gold, pink) 1;
+  padding: 5px;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.celebrities:hover {
+  transform: scale(1.05);
+}
+
+.presidents {
+  border-width: 5px;
+  border-style: solid;
+  border-image: linear-gradient(to right, black, darkblue) 1;
+  padding: 5px;
+  display: inline-block;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+}
+
+.presidents:hover {
+  transform: scale(1.05);
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  font-size: 1.2em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+  height: 17em;
+  width: auto;
+  border-radius: 20px;
+  border: 3px solid black;
+}
